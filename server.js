@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get("/download-pdf", (req, res)=> {
-    res.download("./thierry_cv.pdf")
+    res.download("./Thierry_Ntirandekura_dev_resume..docx.pdf")
 })
 
 const PORT = process.env.PORT || 5000;
